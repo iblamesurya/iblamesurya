@@ -167,7 +167,7 @@ class Surya:
   <i>⚡ Open to internships, collaborations & research in AgriTech · AI · Flutter</i>
   <br/><br/>
   <a href="mailto:suryatummala2120@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-tummalasuryateja99-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27"/>
+    <img src="https://img.shields.io/badge/Gmail-suryatummala2120-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27"/>
   </a>
   &nbsp;
   <a href="https://github.com/iblamesurya/aquaverse-ai-v1">
