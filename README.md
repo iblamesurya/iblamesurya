@@ -15,6 +15,11 @@
   <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collabs-brightgreen?style=for-the-badge&labelColor=0a0e27"/>
 </p>
 
+<!-- GITHUB STREAK STATS -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=iblamesurya&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff" alt="GitHub Streak"/>
+</p>
+
 <br/>
 
 <!-- ABOUT ME SECTION -->
