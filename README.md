@@ -141,7 +141,7 @@ class Surya:
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iblamesurya&theme=tokyonight&background=0a0e27&border=00d4ff&stroke=00d4ff&ring=00d4ff&fire=ff6b35&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00d4ff&sideLabels=00d4ff&dates=8b8b8b" />
+  <img src="https://streak-stats.demolab.com/?user=iblamesurya&theme=tokyonight&background=0a0e27&border=00d4ff&stroke=00d4ff&ring=00d4ff&fire=ff6b35&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00d4ff&sideLabels=00d4ff&dates=8b8b8b" />
 </p>
 
 ---
