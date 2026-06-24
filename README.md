@@ -180,4 +180,5 @@ class Surya:
   </a>
 </p>
 
+<!-- Last updated: 2026-06-24 -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0d4f8c,100:0a0e27&height=120&section=footer&animation=twinkling"/>
