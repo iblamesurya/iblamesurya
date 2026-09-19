@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150">
+    <style>
+        .header { font: 700 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; fill: #00d4ff; }
+        .lang { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; fill: #e6edf3; }
+        .bg { fill: #0a0e27; stroke: #00d4ff; stroke-width: 1.5; rx: 12; }
+        .dot-dart { fill: #00b4ab; }
+        .dot-python { fill: #3572A5; }
+        .dot-js { fill: #f1e05a; }
+        .dot-html { fill: #e34c26; }
+    </style>
+    <rect width="100%" height="100%" class="bg"/>
+    <text x="24" y="32" class="header">🛠️ Most Used Technologies</text>
+    <g transform="translate(24, 60)">
+        <circle cx="6" cy="-4" r="5" class="dot-dart"/>
+        <text x="18" y="0" class="lang">Dart / Flutter</text>
+        
+        <circle cx="166" cy="-4" r="5" class="dot-python"/>
+        <text x="178" y="0" class="lang">Python / AI</text>
+        
+        <circle cx="6" cy="40" r="5" class="dot-js"/>
+        <text x="18" y="44" class="lang">JavaScript / React</text>
+        
+        <circle cx="166" cy="40" r="5" class="dot-html"/>
+        <text x="178" y="44" class="lang">PostgreSQL / Supabase</text>
+    </g>
+</svg>

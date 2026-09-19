@@ -1,0 +1,37 @@
+name: Generate Streak Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Streak Stats
+        run: |
+          curl -sL --retry 3 --retry-delay 5 \
+            "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff&sideLabels=00d4ff&background=0a0e27" \
+            -o github-streak-stats.svg
+
+          # Validate the downloaded file is actually an SVG
+          if ! head -c 200 github-streak-stats.svg | grep -q '<svg'; then
+            echo "ERROR: Downloaded file is not a valid SVG!"
+            cat github-streak-stats.svg
+            exit 1
+          fi
+
+          echo "Successfully downloaded streak stats SVG"
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add github-streak-stats.svg
+          git diff --staged --quiet && echo "No changes to commit" || (git commit -m "Update Streak Stats [skip ci]" && git push)
